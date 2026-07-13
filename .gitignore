@@ -4,3 +4,6 @@ admin/build/*.map
 *.log
 
 vendor/
+
+.phpunit.result.cache
+add-screenshots.ps1
