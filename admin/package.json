@@ -1,0 +1,27 @@
+{
+  "name": "woocopy-ai-admin",
+  "version": "1.0.0",
+  "description": "Admin UI for WooCopy AI",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build src/index.tsx --output-path=../build",
+    "start": "wp-scripts start src/index.tsx --output-path=../build",
+    "lint:js": "wp-scripts lint-js src",
+    "format": "wp-scripts format src"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^7.0.0",
+    "@wordpress/components": "^28.0.0",
+    "@wordpress/element": "^6.0.0",
+    "@wordpress/i18n": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0"
+  }
+}

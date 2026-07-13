@@ -1,0 +1,4 @@
+admin/node_modules/
+admin/build/*.map
+.DS_Store
+*.log
