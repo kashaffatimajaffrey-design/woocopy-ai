@@ -1,4 +1,4 @@
-# WooCopy AI
+﻿# WooCopy AI
 
 AI-powered product copy generation for WooCommerce — built as an eval-first, human-in-the-loop system rather than a generate-and-forget gimmick.
 
@@ -15,6 +15,28 @@ Most "AI product description" plugins are a text field and an API call. WooCopy 
 - **Bulk generation with cost estimation** — select multiple products from the catalog, see an estimated token/time cost before committing, and generate with built-in rate-limiting/pacing.
 - **Eval dashboard** — acceptance rate, average edit distance, and keyword coverage broken down by prompt version, so you can see whether prompt iteration is actually working.
 - **WordPress coding standards compliant** — sanitized/escaped inputs and outputs throughout, REST nonces, capability checks (`manage_woocommerce` / `manage_options`), proper `wp_enqueue_script` usage, i18n-ready strings, and a proper `uninstall.php`.
+
+
+## Screenshots
+
+**Product catalog** - the demo WooCommerce store used for testing generations.
+![Product catalog](docs/screenshots/catalog.png)
+
+**Review queue** - select a product, generate AI copy, and see everything awaiting human review.
+![Review queue](docs/screenshots/generation.png)
+
+**Review draft** - word-level diff between the existing description and the AI draft, with accept / edit / reject.
+![Review draft](docs/screenshots/product_review_draft.png)
+
+**Eval dashboard** - acceptance rate, status breakdown, and per-prompt-version stats.
+![Eval dashboard](docs/screenshots/eval_dashboard.png)
+
+**Voice profile** - extracted brand tone/style from example descriptions, applied to every future generation.
+![Voice profile](docs/screenshots/current_profile(voice).png)
+
+**Dual provider support** - switch between Claude (Anthropic API) and Ollama (free, local) per environment.
+![Claude provider settings](docs/screenshots/claude_key.png)
+![Ollama provider settings](docs/screenshots/ollama_key.png)
 
 ## Requirements
 
