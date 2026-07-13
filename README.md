@@ -20,21 +20,27 @@ Most "AI product description" plugins are a text field and an API call. WooCopy 
 ## Screenshots
 
 **Product catalog** - the demo WooCommerce store used for testing generations.
+
 ![Product catalog](docs/screenshots/catalog.png)
 
 **Review queue** - select a product, generate AI copy, and see everything awaiting human review.
+
 ![Review queue](docs/screenshots/generation.png)
 
 **Review draft** - word-level diff between the existing description and the AI draft, with accept / edit / reject.
+
 ![Review draft](docs/screenshots/product_review_draft.png)
 
 **Eval dashboard** - acceptance rate, status breakdown, and per-prompt-version stats.
+
 ![Eval dashboard](docs/screenshots/eval_dashboard.png)
 
 **Voice profile** - extracted brand tone/style from example descriptions, applied to every future generation.
+
 ![Voice profile](docs/screenshots/current_profile(voice).png)
 
 **Dual provider support** - switch between Claude (Anthropic API) and Ollama (free, local) per environment.
+
 ![Claude provider settings](docs/screenshots/claude_key.png)
 ![Ollama provider settings](docs/screenshots/ollama_key.png)
 
